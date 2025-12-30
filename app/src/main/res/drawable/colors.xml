@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- WARNA UTAMA (PRIMARY THEME) -->
+    <color name="colorPrimary">#E67A3D</color>
+    <color name="colorPrimaryDark">#D66C34</color>
+    <color name="colorAccent">#E67A3D</color>
+
+    <!-- BACKGROUND -->
+    <!-- Background utama aplikasi -->
+    <color name="backgroundColor">#C89263</color>
+
+    <!-- Background elemen kartu/panel putih-cream -->
+    <color name="backgroundCard">#F7F2EB</color>
+
+    <!-- Background coklat medium (opsional jika mau dipakai di tombol / layout lain) -->
+    <color name="backgroundBrown"
+        tools:ignore="MissingPrefix">#BD8251</color>
+
+
+    <!-- TEXT -->
+    <color name="textPrimary">#000000</color>
+    <color name="textSecondary">#6F6F6F</color>
+
+    <!-- BORDER / DIVIDER -->
+    <color name="borderSoft">#E5D6C9</color>
+
+    <!-- ICON / ACCENT -->
+    <color name="iconOrange">#E67A3D</color>
+
+    <color name="orangeMain">#F5893D</color>
+    <color name="orangeLight">#F7A866</color>
+    <color name="orangeDark">#D66D24</color>
+
+
+</resources>

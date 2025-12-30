@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange_primary">#C7682A</color> <!-- mirip gambar -->
+    <color name="bg_beige">#C79C6B</color> <!-- latar -->
+    <color name="white">#FFFFFF</color>
+    <color name="text_dark">#1F1F1F</color>
+    <color name="text_secondary">#6B6B6B</color>
+    <color name="gray_light">#E3E0DA</color>
+    <color name="gray_pressed">#D6D2CB</color>
+    <!-- Background utama aplikasi -->
+    <color name="backgroundColor">#F3E0C7</color>
+    <color name="iconOrange">#FF9800</color>
+    <color name="orange">#C7682A</color>
+    <color name="cardColor">#FFF3E0</color>
+    <color name="textPrimary">#3E2723</color>
+    <color name="black">#000000</color>
+</resources>

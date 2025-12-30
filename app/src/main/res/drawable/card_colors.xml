@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Background utama (beige) -->
+    <color name="backgroundColor">#F3D8B5</color>
+
+    <!-- Warna teks -->
+    <color name="text_dark">#2E2E2E</color>
+    <color name="text_secondary">#6F6F6F</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Warna card (krem terang) -->
+    <color name="cardColor">#FFF7ED</color>
+
+    <!-- Warna tombol -->
+    <color name="buttonColor">#D47A38</color>
+    <color name="buttonColor_dark">#B86128</color>
+
+</resources>
