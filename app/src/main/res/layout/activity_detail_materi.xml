@@ -27,7 +27,6 @@
             android:id="@+id/tvContent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="public class Main {\n\tpublic static void main(String[] args) {\n\t\tSystem.out.println(\"Hello, World!\");\n\t}\n}"
         android:textSize="14sp"
         android:textColor="@color/black"
         android:typeface="monospace" />
@@ -42,5 +41,7 @@
         android:textStyle="bold"
         android:textColor="@android:color/white"
         android:background="@drawable/bg_button" />
+
+
 
 </LinearLayout>

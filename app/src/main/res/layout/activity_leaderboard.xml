@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true"
     android:background="@color/bg_beige">
 
     <LinearLayout
@@ -20,12 +21,13 @@
             <ImageView
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                android:src="@drawable/ic_back" />
+                android:src="@drawable/ic_back"
+                android:contentDescription="Kembali" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
                 android:text="Papan Peringkat"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -36,11 +38,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_your_rank"
+            android:layout_marginTop="25dp"
             android:padding="25dp"
             android:orientation="vertical"
             android:gravity="center"
-            android:layout_marginTop="25dp">
+            android:background="@drawable/bg_your_rank">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -54,31 +56,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="#4"
-                android:textColor="@color/text_dark"
                 android:textSize="40sp"
                 android:textStyle="bold"
+                android:textColor="@color/text_dark"
                 android:layout_marginTop="5dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="(1259 Poin)"
-                android:textColor="@color/text_dark"
                 android:textSize="14sp"
+                android:textColor="@color/text_dark"
                 android:layout_marginTop="5dp" />
         </LinearLayout>
 
-        <!-- Judul 10 Terbaik -->
+        <!-- Judul -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:text="10 Terbaik"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="@color/text_dark"
-            android:layout_marginTop="30dp" />
+            android:textColor="@color/text_dark" />
 
-        <!-- Container List -->
+        <!-- List -->
         <LinearLayout
             android:id="@+id/leaderboardContainer"
             android:layout_width="match_parent"
@@ -86,10 +88,10 @@
             android:orientation="vertical"
             android:layout_marginTop="15dp">
 
-            <!-- Contoh Item -->
             <include layout="@layout/item_leaderboard" />
 
         </LinearLayout>
 
     </LinearLayout>
+
 </ScrollView>
